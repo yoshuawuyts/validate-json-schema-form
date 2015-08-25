@@ -1,0 +1,38 @@
+{
+  "name": "validate-json-schema-form",
+  "version": "1.0.0",
+  "description": "Validate a form based on a JSON schema",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test/index.js"
+  },
+  "repository": "yoshuawuyts/validate-json-schema-form",
+  "keywords": [
+    "json",
+    "schema",
+    "form",
+    "validate",
+    "html",
+    "json-schema"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "get-form-data": "^1.2.2",
+    "is-my-json-valid": "^2.12.1"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.5.0",
+    "domify": "^1.3.3",
+    "istanbul": "^0.3.18",
+    "jsdom": "^6.1.0",
+    "standard": "^5.1.0",
+    "tape": "^4.2.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
