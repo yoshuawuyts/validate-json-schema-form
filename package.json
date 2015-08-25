@@ -1,6 +1,6 @@
 {
   "name": "validate-json-schema-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate a form using JSON schema",
   "main": "index.js",
   "scripts": {
