@@ -50,26 +50,6 @@ the following values:
 - __[tbi]__ `formats` - define custom formats.
 - __[tbi]__ `schemas` - reference external schemas.
 
-## FAQ
-### Why did you write this?
-JSON Schema is the standardized answer to validation. At the time of writing
-there were no other JSON Schema based form validators available on npm.
-
-### Why use JSON-Schema and not something else?
-Unlinke other methods of validation, JSON Schema is broadly used and is in the
-process of being standardized. This means that the same validation can freely
-translate between implementations and languages, as long as the spec is
-adhered. This way validation becomes more robust, and eventually a solved
-problem.
-
-### How can I help move JSON Schema forward?
-The current JSON Schema draft (v4) expired in August 2013. Fortunately there's
-still a large community working towards a v5 spec. Check out the following
-links if you're interested in contributing:
-- [json-schema/issues](https://github.com/json-schema/json-schema/issues)
-- [json-schema/v5-discussion](https://github.com/json-schema/json-schema/issues/167)
-- [json-schema-spec/v5-issues](https://github.com/json-schema-org/json-schema-spec/search?q=is%3Aopen&type=Issues&utf8=%E2%9C%93)
-
 ## See Also
 - [json-schema.org][json-schema]
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)
