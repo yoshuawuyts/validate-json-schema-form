@@ -5,7 +5,7 @@
 [![Downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-Validate a form based on a [JSON Schema][json-schema].
+Validate a form using [JSON Schema][json-schema].
 
 ## Installation
 ```sh
